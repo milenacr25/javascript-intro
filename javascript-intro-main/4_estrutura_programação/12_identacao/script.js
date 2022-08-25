@@ -1,7 +1,12 @@
-//for (incialização) (condição) (expressão final)
-for (i=0; i < 100; i = i + 2){
-    console.log(`A soma de i com 2 é  ${ i +2}`);
-}
+nome = "Denicreidson";
 
-//atalho identar comigo 
-//alt +shift +
+switch(nome) {
+    case "Daniel":
+    console.log("Bem vindo Daniel");
+    break;
+    case"João":
+    console.log("Bem vindo João");
+    break;
+    default:
+        console.log("Nome não encontrado!")
+}
