@@ -1,0 +1,1 @@
+console.log(9 * 'a'); //NULL (NaN) pois não é possivel a multiplicação
